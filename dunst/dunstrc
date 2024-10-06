@@ -1,0 +1,129 @@
+[global]
+font = "JerBrains Mono 8"
+frame_color = "#8aadf4"
+separator_color= frame
+
+[urgency_low]
+background = "#24273a"
+foreground = "#cad3f5"
+
+[urgency_normal]
+background = "#24273a"
+foreground = "#cad3f5"
+
+[urgency_critical]
+background = "#24273a"
+foreground = "#cad3f5"
+frame_color = "#f5a97f"
+
+[urgency_low]
+    background = "#8B65A380"
+    foreground = "#ECCCFFE6"
+    frame_color = "#8B65A303"
+    icon = "/home/aayush/.config/dunst/icons/hyprdots.svg"
+    timeout = 5
+
+[urgency_normal]
+    background = "#3A4B6B80"
+    foreground = "#CCDDFFE6"
+    frame_color = "#3A4B6B03"
+    icon = "/home/aayush/.config/dunst/icons/hyprdots.svg"
+    timeout = 5
+
+[urgency_low]
+    background = "#A3658A80"
+    foreground = "#FFCCEAE6"
+    frame_color = "#A3658A03"
+    icon = "/home/aayush/.config/dunst/icons/hyprdots.svg"
+    timeout = 5
+
+[urgency_normal]
+    background = "#593A6B80"
+    foreground = "#EDCCFFE6"
+    frame_color = "#593A6B03"
+    icon = "/home/aayush/.config/dunst/icons/hyprdots.svg"
+    timeout = 5
+
+[urgency_low]
+    background = "#657AA380"
+    foreground = "#CCDDFFE6"
+    frame_color = "#657AA303"
+    icon = "/home/aayush/.config/dunst/icons/hyprdots.svg"
+    timeout = 5
+
+[urgency_normal]
+    background = "#443A6B80"
+    foreground = "#D6CCFFE6"
+    frame_color = "#443A6B03"
+    icon = "/home/aayush/.config/dunst/icons/hyprdots.svg"
+    timeout = 5
+
+[urgency_low]
+    background = "#A3656B80"
+    foreground = "#FFCCD1E6"
+    frame_color = "#A3656B03"
+    icon = "/home/aayush/.config/dunst/icons/hyprdots.svg"
+    timeout = 5
+
+[urgency_normal]
+    background = "#3A646B80"
+    foreground = "#CCF7FFE6"
+    frame_color = "#3A646B03"
+    icon = "/home/aayush/.config/dunst/icons/hyprdots.svg"
+    timeout = 5
+
+[urgency_low]
+    background = "#657DA380"
+    foreground = "#CCDFFFE6"
+    frame_color = "#657DA303"
+    icon = "/home/aayush/.config/dunst/icons/hyprdots.svg"
+    timeout = 5
+
+[urgency_normal]
+    background = "#3A4C6B80"
+    foreground = "#CCDFFFE6"
+    frame_color = "#3A4C6B03"
+    icon = "/home/aayush/.config/dunst/icons/hyprdots.svg"
+    timeout = 5
+
+[urgency_low]
+    background = "#656DA380"
+    foreground = "#CCD2FFE6"
+    frame_color = "#656DA303"
+    icon = "/home/aayush/.config/dunst/icons/hyprdots.svg"
+    timeout = 5
+
+[urgency_normal]
+    background = "#3A3D6B80"
+    foreground = "#CCCFFFE6"
+    frame_color = "#3A3D6B03"
+    icon = "/home/aayush/.config/dunst/icons/hyprdots.svg"
+    timeout = 5
+
+[urgency_low]
+    background = "#65A3A380"
+    foreground = "#CCFFFFE6"
+    frame_color = "#65A3A303"
+    icon = "/home/aayush/.config/dunst/icons/hyprdots.svg"
+    timeout = 5
+
+[urgency_normal]
+    background = "#3A4B6B80"
+    foreground = "#CCDEFFE6"
+    frame_color = "#3A4B6B03"
+    icon = "/home/aayush/.config/dunst/icons/hyprdots.svg"
+    timeout = 5
+
+[urgency_low]
+    background = "#656DA380"
+    foreground = "#CCD2FFE6"
+    frame_color = "#656DA303"
+    icon = "/home/aayush/.config/dunst/icons/hyprdots.svg"
+    timeout = 5
+
+[urgency_normal]
+    background = "#3A3D6B80"
+    foreground = "#CCCFFFE6"
+    frame_color = "#3A3D6B03"
+    icon = "/home/aayush/.config/dunst/icons/hyprdots.svg"
+    timeout = 5
