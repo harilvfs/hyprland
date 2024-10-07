@@ -7,7 +7,7 @@ Hyprland Dotfiles with tweaks & improvement.
 ```bash
 git clone https://github.com/harilvfs/hyprland 
 cd  hyprland/
-mv * ~/.cofig
+mv * ~/.config
 ```
 
 Btw this dotfile is sourced from [Prasanthrangan](https://github.com/prasanthrangan/hyprdots).
