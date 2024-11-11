@@ -84,7 +84,6 @@ alias .5='cd ../../../../..'
 alias mkdir='mkdir -p'
 
 #Titus
-
 lazyg() {
 	git add .
 	git commit -m "$1"
@@ -95,8 +94,12 @@ lazyg() {
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 # Display Pokemon
-pokemon-colorscripts --no-title -r 1,3,6
+#pokemon-colorscripts --no-title -r 1,3,6
 
 eval "$(zoxide init zsh)"
 
+nitch
 
+if [ -z "$TMUX" ]; then
+   tmux attach -d || tmux new
+fi
