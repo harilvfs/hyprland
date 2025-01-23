@@ -27,13 +27,13 @@
     width = 300
 
     # The maximum height of a single notification, excluding the frame.
-    height = 300
+    height = (0, 300)
 
     # Position the notification in the top right corner
     origin = top-right
 
     # Offset from the origin
-    offset = 20x20
+    offset = (20, 20)
 
     # Scale factor. It is auto-detected if value is 0.
     scale = 0
@@ -217,7 +217,7 @@
     max_icon_size = 128
 
     # Paths to default icons (only necessary when not using recursive icon lookup)
-    icon_path = $HOME/.icons/Tela-circle-dracula/16/actions:$HOME/.icons/Tela-circle-dracula/16/apps:$HOME/.icons/Tela-circle-dracula/16/devices:$HOME/.icons/Tela-circle-dracula/16/mimetypes:$HOME/.icons/Tela-circle-dracula/16/panel:$HOME/.icons/Tela-circle-dracula/16/places:$HOME/.icons/Tela-circle-dracula/16/status
+    icon_path = /home/aayush/.icons/Tela-circle-dracula/16/actions:/home/aayush/.icons/Tela-circle-dracula/16/apps:/home/aayush/.icons/Tela-circle-dracula/16/devices:/home/aayush/.icons/Tela-circle-dracula/16/mimetypes:/home/aayush/.icons/Tela-circle-dracula/16/panel:/home/aayush/.icons/Tela-circle-dracula/16/places:/home/aayush/.icons/Tela-circle-dracula/16/status
 
     ### History ###
 
@@ -231,7 +231,7 @@
     ### Misc/Advanced ###
 
     # dmenu path.
-    dmenu = /usr/bin/rofi -config "$HOME/.config/rofi/notification.rasi" -dmenu -p dunst:
+    dmenu = /usr/bin/rofi -config "/home/aayush/.config/rofi/notification.rasi" -dmenu -p dunst:
 
     # Browser for opening urls in context menu.
     browser = /usr/bin/xdg-open
@@ -445,19 +445,19 @@
     background = "#f5e0dc"
     foreground = "#1e1e2e"
     frame_color = "#f38ba8"
-    icon = "$HOME/.config/dunst/icons/critical.svg"
+    icon = "/home/aayush/.config/dunst/icons/critical.svg"
     timeout = 0
 
 [urgency_low]
-    background = "#6591A380"
-    foreground = "#CCF0FFE6"
-    frame_color = "#6591A303"
-    icon = "$HOME/.config/dunst/icons/hyprdots.svg"
+    background = "#657FA380"
+    foreground = "#CCE2FFE6"
+    frame_color = "#657FA303"
+    icon = "/home/aayush/.config/dunst/icons/hyprdots.svg"
     timeout = 5
 
 [urgency_normal]
-    background = "#3A4A6B80"
-    foreground = "#CCDDFFE6"
-    frame_color = "#3A4A6B03"
-    icon = "$HOME/.config/dunst/icons/hyprdots.svg"
+    background = "#6B3A5580"
+    foreground = "#FFCCE8E6"
+    frame_color = "#6B3A5503"
+    icon = "/home/aayush/.config/dunst/icons/hyprdots.svg"
     timeout = 5

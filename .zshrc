@@ -94,17 +94,11 @@ alias mkdir='mkdir -p'
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 # Display Pokemon
-#pokemon-colorscripts --no-title -r 1,3,6
+pokemon-colorscripts --no-title -r 1,3,6
 
-eval "$(zoxide init zsh)"
+# eval "$(zoxide init zsh)"
 
-if [ -z "$TMUX" ]; then
-   tmux attach -d || tmux new
-fi
+# export PATH="/usr/bin/lua-language-server:$PATH"
 
-nerdfetch
-
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+# export PATH="/usr/bin/vscode-html-languageserver:$PATH"
 
