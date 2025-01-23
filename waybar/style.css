@@ -16,7 +16,7 @@ window#waybar {
 tooltip {
     background: @main-bg;
     color: @main-fg;
-    border-radius: 5px;
+    border-radius: 7px;
     border-width: 0px;
 }
 
@@ -24,12 +24,12 @@ tooltip {
     box-shadow: none;
 	text-shadow: none;
     padding: 0px;
-    border-radius: 6px;
-    margin-top: 2px;
-    margin-bottom: 2px;
+    border-radius: 9px;
+    margin-top: 3px;
+    margin-bottom: 3px;
     margin-left: 0px;
-    padding-left: 2px;
-    padding-right: 2px;
+    padding-left: 3px;
+    padding-right: 3px;
     margin-right: 0px;
     color: @main-fg;
     animation: ws_normal 20s ease-in-out 1;
@@ -38,10 +38,10 @@ tooltip {
 #workspaces button.active {
     background: @wb-act-bg;
     color: @wb-act-fg;
-    margin-left: 2px;
-    padding-left: 9px;
-    padding-right: 9px;
-    margin-right: 2px;
+    margin-left: 3px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-right: 3px;
     animation: ws_active 20s ease-in-out 1;
     transition: all 0.4s cubic-bezier(.55,-0.68,.48,1.682);
 }
@@ -57,12 +57,12 @@ tooltip {
     box-shadow: none;
 	text-shadow: none;
     padding: 0px;
-    border-radius: 6px;
-    margin-top: 2px;
-    margin-bottom: 2px;
+    border-radius: 9px;
+    margin-top: 3px;
+    margin-bottom: 3px;
     margin-left: 0px;
-    padding-left: 2px;
-    padding-right: 2px;
+    padding-left: 3px;
+    padding-right: 3px;
     margin-right: 0px;
     color: @wb-color;
     animation: tb_normal 20s ease-in-out 1;
@@ -71,10 +71,10 @@ tooltip {
 #taskbar button.active {
     background: @wb-act-bg;
     color: @wb-act-color;
-    margin-left: 2px;
-    padding-left: 9px;
-    padding-right: 9px;
-    margin-right: 2px;
+    margin-left: 3px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-right: 3px;
     animation: tb_active 20s ease-in-out 1;
     transition: all 0.4s cubic-bezier(.55,-0.68,.48,1.682);
 }
@@ -100,8 +100,9 @@ tooltip {
 #custom-cava,
 #custom-cliphist,
 #clock,
-#cpu,
 #custom-cpuinfo,
+#cpu,
+#custom-github_hyprdots,
 #custom-gpuinfo,
 #idle_inhibitor,
 #custom-keybindhint,
@@ -131,9 +132,9 @@ tooltip {
     color: @main-fg;
     background: @main-bg;
     opacity: 1;
-    margin: 3px 0px 3px 0px;
-    padding-left: 3px;
-    padding-right: 3px;
+    margin: 4px 0px 4px 0px;
+    padding-left: 4px;
+    padding-right: 4px;
 }
 
 #workspaces,
@@ -142,37 +143,37 @@ tooltip {
 }
 
 #custom-r_end {
-    border-radius: 0px 16px 16px 0px;
-    margin-right: 6px;
-    padding-right: 0px;
+    border-radius: 0px 21px 21px 0px;
+    margin-right: 9px;
+    padding-right: 3px;
 }
 
 #custom-l_end {
-    border-radius: 16px 0px 0px 16px;
-    margin-left: 6px;
-    padding-left: 0px;
+    border-radius: 21px 0px 0px 21px;
+    margin-left: 9px;
+    padding-left: 3px;
 }
 
 #custom-sr_end {
     border-radius: 0px;
-    margin-right: 6px;
-    padding-right: 0px;
+    margin-right: 9px;
+    padding-right: 3px;
 }
 
 #custom-sl_end {
     border-radius: 0px;
-    margin-left: 6px;
-    padding-left: 0px;
+    margin-left: 9px;
+    padding-left: 3px;
 }
 
 #custom-rr_end {
-    border-radius: 0px 5px 5px 0px;
-    margin-right: 6px;
-    padding-right: 0px;
+    border-radius: 0px 7px 7px 0px;
+    margin-right: 9px;
+    padding-right: 3px;
 }
 
 #custom-rl_end {
-    border-radius: 5px 0px 0px 5px;
-    margin-left: 6px;
-    padding-left: 0px;
+    border-radius: 7px 0px 0px 7px;
+    margin-left: 9px;
+    padding-left: 3px;
 }
