@@ -155,10 +155,17 @@ return {
   {
     "rachartier/tiny-glimmer.nvim",
     lazy = false,
-    event = "TextYankPost",
+    event = "VeryLazy",
     opts = {
         -- your configuration
     },
+  },
+
+  {
+    "nvzone/typr",
+    dependencies = "nvzone/volt",
+    opts = {},
+    cmd = { "Typr", "TyprStats" },
   }
   -- {
   -- 	"nvim-treesitter/nvim-treesitter",
@@ -169,4 +176,4 @@ return {
   -- 		},
   -- 	},
   -- },
-}
+  }
