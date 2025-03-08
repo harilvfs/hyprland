@@ -72,6 +72,9 @@ alias pc='$aurhelper -Sc' # remove unused cache
 alias po='$aurhelper -Qtdq | $aurhelper -Rns -' # remove unused packages, also try > $aurhelper -Qqd | $aurhelper -Rsu --print -
 alias vc='code' # gui code editor
 alias vim='nvim' # neovim
+alias carchinstalla='bash <(curl -L https://chalisehari.com.np/arch)' # carch install on arch
+alias carchinstallf='bash <(curl -L https://chalisehari.com.np/fedora)' # carch install on fedora
+alias aa='startx' # startx
 
 # Directory navigation shortcuts
 alias ..='cd ..'
@@ -96,9 +99,20 @@ alias mkdir='mkdir -p'
 # Display Pokemon
 pokemon-colorscripts --no-title -r 1,3,6
 
-# eval "$(zoxide init zsh)"
+eval "$(zoxide init zsh)"
 
-# export PATH="/usr/bin/lua-language-server:$PATH"
+#if [ -z "$TMUX" ]; then
+#   tmux attach -d || tmux new
+#fi
 
-# export PATH="/usr/bin/vscode-html-languageserver:$PATH"
+#nerdfetch
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+#if [[ -z $DISPLAY ]] && [[ $(tty) = /dev/tty1 ]]; then
+#    exec startx
+#fi
+
 

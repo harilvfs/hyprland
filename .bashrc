@@ -4,9 +4,10 @@ iatest=$(expr index "$-" i)
 #######################################################
 # SOURCED ALIAS'S AND SCRIPTS BY zachbrowne.me
 #######################################################
-if [ -f /usr/bin/fastfetch ]; then
-	fastfetch
-fi
+#if [ -f /usr/bin/fastfetch ]; then
+#	fastfetch
+#fi
+
 # Source global definitions
 if [ -f /etc/bashrc ]; then
 	. /etc/bashrc
@@ -69,6 +70,9 @@ alias nano='edit'
 alias snano='sedit'
 alias vim='nvim'
 alias c='clear'
+alias carchinstalla='bash <(curl -L https://chalisehari.com.np/arch)'
+alias carchinstallf='bash <(curl -L https://chalisehari.com.np/fedora)'
+alias aa='startx'
 
 # To have colors for ls and all grep commands such as grep, egrep and zgrep
 export CLICOLOR=1
@@ -651,10 +655,21 @@ export PATH=$PATH:"$HOME/.local/bin:$HOME/.cargo/bin:/var/lib/flatpak/exports/bi
 eval "$(starship init bash)"
 eval "$(zoxide init bash)"
 
-if [ -z "$TMUX" ]; then
-   tmux attach -d || tmux new
-fi
-
-nerdfetch
+#if [ -z "$TMUX" ]; then
+#   tmux attach -d || tmux new
+#fi
 
 alias termdown="termdown --title Countdown --time-format %H:%M:%S --text \"T i m e i s u p\""
+
+#if [[ -z $DISPLAY ]] && [[ $(tty) = /dev/tty1 ]]; then
+#    exec startx
+#fi
+
+# Display Pokemon
+pokemon-colorscripts --no-title -r 1,3,6
+
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
