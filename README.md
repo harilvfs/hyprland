@@ -1,3 +1,9 @@
+<div align="center">
+
+<img src="https://img.shields.io/badge/Maintained%3F-No-1c1c29?style=for-the-badge&color=ef9f9c&logoColor=85e185&labelColor=1c1c29">
+
+</div>
+
 ### Hyprland Dotfiles
 
 Hyprland Dotfiles with tweaks & improvement.
